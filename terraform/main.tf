@@ -20,6 +20,10 @@ output "db_hostname" {
   value = module.dev_database.db_hostname
 }
 
+output "cert_arn" {
+  value = var.cert_arn
+}
+
 module "dev_cluster" {
   source            = "./modules/cluster"
   route53_zone_id   = var.route53_zone_id

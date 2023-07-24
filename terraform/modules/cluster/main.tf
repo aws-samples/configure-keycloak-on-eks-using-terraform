@@ -71,7 +71,7 @@ resource "local_file" "kubeconfig" {
 
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "3.19.0"
+  version = "5.1.0"
 
   name                 = var.cluster_name
   cidr                 = "172.16.0.0/16"

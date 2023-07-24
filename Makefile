@@ -56,8 +56,8 @@ clean:
 
 plan:
 	@echo "$(GRE) INFO: Initialize the working directory and planning"
-	cd terraform/ \
-	@terraform init -reconfigure && \
+	cd terraform/ && \
+	terraform init -reconfigure && \
 	terraform fmt && \
 	terraform validate && \
 	terraform plan

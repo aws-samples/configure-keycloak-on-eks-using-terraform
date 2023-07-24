@@ -6,7 +6,7 @@ variable "enabled" {
 
 variable "cluster_name" {
   type        = string
-  description = "The name of the cluster"
+  description = "The name of the cluster."
   default = "keycloak-demo"
 }
 
@@ -34,7 +34,7 @@ variable "settings" {
 variable "service_account_name" {
   type        = string
   default     = "cluster-autoscaler"
-  description = "Cluster Autoscaler service account name"
+  description = "Cluster Autoscaler service account name."
 }
 
 variable "namespace" {
@@ -51,10 +51,10 @@ variable "create_namespace" {
 
 variable "cluster_endpoint" {
   type        = string
-  description = "Endpoint for your Kubernetes API server"
+  description = "Endpoint for your Kubernetes API server."
 }
 
 variable "cluster_certificate_authority_data" {
   type        = string
-  description = "Base64 encoded certificate data required to communicate with the cluster"
+  description = "Base64 encoded certificate data required to communicate with the cluster."
 }
