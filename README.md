@@ -19,7 +19,7 @@ Run command
 make update-kube-config
 ```
 
-### To depoloy Keycloak to EKS
+### To deploy Keycloak to EKS
 Run command
 ```shell
 make deploy-keycloak
